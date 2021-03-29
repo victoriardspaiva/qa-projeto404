@@ -1,4 +1,4 @@
-﻿# Time: 404 - O nome do grupo não
+﻿# Time: 404 - O nome do grupo não existe
 Integrantes: <br>
 <ul>
   <li>Elaine Moreira</li>
