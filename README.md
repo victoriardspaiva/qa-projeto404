@@ -160,9 +160,11 @@ test.bat
 
 --------------------------------------------------------------------
 ## Estrutura de arquivos
- <br>
+
+<br>
+<pre>
 ├───.mvn
-├───driver
+├───driver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina<br>
 ├───src
 │   └───test
 │       ├───java
@@ -175,6 +177,7 @@ test.bat
 │               └───cucumber
 │                   └───grupo
 
+</pre>
 <br>
 
 <pre>
