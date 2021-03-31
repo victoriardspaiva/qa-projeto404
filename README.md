@@ -1,15 +1,16 @@
-﻿# Time: 404 - O nome do grupo não existe
+﻿# Time: 404 - O nome do grupo não existe!
 Integrantes: <br>
 <ul>
   <li>Elaine Moreira - https://github.com/Elainemor</li>
   <li>Kerolaine Gomes - https://github.com/kerollainy</li>
 	<li>Manoela Paloma - https://github.com/Palinha07</li>
-  <li>Regina Moura - </li>
-  <li>Victória Paiva</li>
+  <li>Regina Moura - https://github.com/ReginaMoura</li>
+  <li>Victória Paiva - https://github.com/victoriardspaiva</li>
 </ul>
 
 # Descrição do desafio
 ### Criar uma aplicação Selenium com os seguintes casos de teste
+
 ### Caso de teste 1
 Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
@@ -22,11 +23,11 @@ Então deve fechar a caixa de informação<br>
 dado que eu estou no site da accenture<br>
 e aceito os termos LGPD<br>
 e clico em configurações de cookie<br>
-Então devo ver o item de "sua privacidade"<br>
-- [x] Cookies estritamente necessárias"<br>
-- [x] Cookies Analíticos de Primeira Parte"<br>
-- [x] Cookies de Desempenho e Cookies Funcionais"<br>
-- [x] Cookies de Publicidade e Redes  
+Entao devo ver o item "Sua privacidade"<br>
+E devo ver "Cookies estritamente necessarias"<br>
+E devo ver "Cookies Analiticos de Primeira Parte"<br>
+E devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
+E devo ver "Cookies de Publicidade e Redes Sociais"<br>
 
 ### Caso de teste 2
 Acessar o site da accenture a mostrar a lista de serviços<br>
@@ -64,20 +65,16 @@ e clico no menu serviços<br>
 e clico no item do menu cloud<br>
 Então devo encontrar o título "Serviços de Cloud"<br>
 
-### Caso de teste
+### Caso de teste 3
 Acessar a lista de carreiras da accenture<br>
 
-<b>Cenário</b>: Acessar o item de vagas de tecnologia<br>
-dado que eu estou no site da accenture<br>
-e clico no menu carreiras<br>
-e clico no item do menu vagas em tecnologia<br>
-Então devo ver o destaque em "Carreiras em Tecnologia"<br>
-
-<b>Cenário</b>: Procurando uma vaga<br>
-dado que eu estou no site da accenture<br>
-e digito no campo de busca "desenvolvedor"<br>
-e clico no botão procurar<br>
-Então devo encontrar vagas para programadores<br>
+<b>Cenário</b>: Acessar o item de vagas<br>
+Dado que eu estou no site da accenture<br>
+Quando clico no menu carreiras<br>
+E clico no item procurar por vagas<br>
+E digito no campo de busca Desenvolvedor<br>
+E clico no botao procurar<br>
+Entao devo encontrar vagas para programadores<br>
 
 ### Caso de teste
 Sobre a accenture<br>
@@ -171,34 +168,25 @@ test.bat
 │       │   └───io
 │       │       └───cucumber
 │       │           └───grupo
-│       │               └───configuracao
-│       └───resources
+│       │               ├───configuracao
+│       |               |      └───Configuração.java   
+|       |               ├───CasoDeTeste1Steps.java -- Teste dos Cookeis de privacidade 
+|       |               ├───CasoDeTeste2Steps.java -- Teste listar serviços e Could
+|       |               ├───CasoDeTeste3Steps.java -- Teste vagas de tecnologia
+|       |               ├───CasoDeTeste4Steps.java -- Teste sobre a Accenture 
+|       |               ├───CcompartihadoSteps.java -- Funções compartihadas
+|       |               └───RunCucumberTest.java -- Execução do teste
+|       └───resources        
 │           └───io
 │               └───cucumber
 │                   └───grupo
-
+|                       ├───CasoDeTeste1.feature -- Gherkin com os cenários dos Cookeis de privacidade
+|                       ├───CasoDeTeste2.feature -- Gherkin com os cenários listar serviços e Could
+|                       ├───CasoDeTeste3.feature -- Gherkin com os cenários vagas de tecnologia
+|                       └───CasoDeTeste4.feature -- Gherkin com os cenários sobre a Accenture
+|
+├───test.bat -- Arquivo para rodar teste no Windows
+└───test.sh -- Arquivo para rodar teste no Unix
 </pre>
 <br>
 
-<pre>
-  driver <br>
-      |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina<br>
-  mvnw<br>
-  mvnw.cmd<br>
-  pom.xml<br>
-  src<br>
-    |-- test<br>
-    |  |-- java<br>
-    |  |  |-- io<br>
-    |  |  |  |-- cucumber<br>
-    |  |  |  |  |-- grupo<br>
-    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test <br> 
-    |  |  |  |  |  |-- ValidarCpfStep.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação<br>
-    |  |-- resources<br>
-    |  |  |-- io<br>
-    |  |  |  |-- cucumber<br>
-    |  |  |  |  |-- danilo<br>
-    |  |  |  |  |  |-- validadorCpf.feature -- Gherkin com os cenários de teste de acordo com o meu cliente<br>
-  test.bat -- Arquivo para rodar teste no Windows<br>
-  test.sh -- Arquivo para rodar teste no Unix<br>
-</pre>
