@@ -1,4 +1,9 @@
-﻿# Time: 404 - O nome do grupo não existe!
+﻿![](https://img.shields.io/badge/java-v.1.8-blue.svg)
+![](https://img.shields.io/badge/cucumber-v.0.0.1-yellow.svg)
+![](https://img.shields.io/badge/selenium-v.3.141.59-green.svg)
+![](https://img.shields.io/badge/maven-v.3.3-orange.svg)
+
+# Time: 404 - O nome do grupo não existe!
 Integrantes: <br>
 <ul>
   <li>Elaine Moreira - https://github.com/Elainemor</li>

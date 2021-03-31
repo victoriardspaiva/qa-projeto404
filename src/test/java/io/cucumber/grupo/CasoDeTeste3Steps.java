@@ -31,8 +31,8 @@ public class CasoDeTeste3Steps {
 
 	@Entao("devo encontrar vagas para programadores")
 	public void devo_encontrar_vagas_para_programadores() throws InterruptedException {
-		assertEquals(true, Configuracao.seletorQueryCssTodos(".upper-set-jobs.job-listing-block.col-xs-12").size() > 0);
 		Thread.sleep(3000);	
+		assertEquals(true, Configuracao.seletorQueryCssTodos(".upper-set-jobs.job-listing-block.col-xs-12").size() > 0);
 		Configuracao.fechar();
 	}
 
