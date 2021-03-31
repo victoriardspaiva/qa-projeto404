@@ -161,7 +161,7 @@ test.bat
 <br>
 <pre>
 ├───.mvn
-├───driver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
+├───driver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquinajunit
 ├───src
 │   └───test
 │       ├───java
