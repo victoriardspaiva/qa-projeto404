@@ -8,9 +8,8 @@ Funcionalidade: Acessar o site da accenture e aceitar os cookies do LGPD
 	Cenario: Configuracoes do cookie
 		Dado que eu estou no site da accenture
 		E clico em configuracaes de cookie
-		Entao devo ver os itens
-			|sua privacidade|
-			|Cookies estritamente necessarias|
-			|Cookies Analiticos de Primeira Parte|
-			|Cookies de Desempenho e Cookies Funcionais|
-			|Cookies de Publicidade e Redes Sociais|
+		Entao devo ver o item "Sua privacidade"
+    E devo ver "Cookies estritamente necessarias"
+    E devo ver "Cookies Analiticos de Primeira Parte"
+    E devo ver "Cookies de Desempenho e Cookies Funcionais"
+    E devo ver "Cookies de Publicidade e Redes Sociais"

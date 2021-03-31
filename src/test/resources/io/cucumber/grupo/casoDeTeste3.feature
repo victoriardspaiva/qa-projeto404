@@ -1,4 +1,4 @@
-#language: pt
+#language:pt
 Funcionalidade: Acessar lista de carreiras da Accenture
 
 	Cenario: Acessar o item de vagas de tecnologia

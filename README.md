@@ -1,10 +1,10 @@
 ﻿# Time: 404 - O nome do grupo não existe
 Integrantes: <br>
 <ul>
-  <li>Elaine Moreira</li>
-  <li>Kerolaine Gomes</li>
-	<li>Manoela Paloma</li>
-  <li>Regina Moura</li>
+  <li>Elaine Moreira - https://github.com/Elainemor</li>
+  <li>Kerolaine Gomes - https://github.com/kerollainy</li>
+	<li>Manoela Paloma - https://github.com/Palinha07</li>
+  <li>Regina Moura - </li>
   <li>Victória Paiva</li>
 </ul>
 
